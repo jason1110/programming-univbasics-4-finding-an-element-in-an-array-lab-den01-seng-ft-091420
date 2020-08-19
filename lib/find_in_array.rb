@@ -8,9 +8,3 @@ def find_element_index(array, value_to_find)
     array.index(value_to_find)
   end
 end
-
-
-
-a = ["a","b","c"]
-value_to_find = "c"
-puts find_element_index(a, value_to_find)
