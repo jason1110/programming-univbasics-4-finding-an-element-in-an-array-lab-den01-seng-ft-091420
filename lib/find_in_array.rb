@@ -7,3 +7,9 @@ def find_element_index(array, value_to_find)
   if value_to_find
     array.index(value_to_find)
 end
+
+
+
+a = [a,b,c]
+value_to_find = c
+find_element_index(a, value_to_find)
